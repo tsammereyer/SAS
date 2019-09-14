@@ -12,7 +12,7 @@
 	<artifactId>SAS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SAS</name>
-	<description>First Try to generate a simple ERP System using Spring</description>
+	<description>Prototype for a simple ERP System using Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>

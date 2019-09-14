@@ -29,7 +29,7 @@ public class ArticleController {
 	public Optional<Article> findArticle(Long id) {
 		return service.findArticle(id);
 	}	
-	@PostMapping("/save")
+	@PostMapping("/save") //smth is not working here, not able to update an article
 	public String saveArticle(Article article) {
 		service.saveArticle(article);
 		return "redirect:/";

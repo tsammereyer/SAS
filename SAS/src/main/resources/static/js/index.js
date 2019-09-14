@@ -1,27 +1,7 @@
 $(document).ready(function() {
-	addButtonListeners();
 	editAndNewButton();
 	deleteButton();
 });
-function addButtonListeners(){
-	$("#btnDatabaseSeed").click(function() {
-    	alert("Hello, World!");
-    	$.ajax({
-    		type: 'GET',
-    		url: '/database/seed',
-    		data: {}, // not needed, just in case
-    		success: function() {
-    		    alert("success");
-    		    }
-    		});
-   	});
-
-	$("#btnCreate").click(function() {
-		$('.myForm #exampleModal').modal();
-	});
-	
-	
-}
 
 function editAndNewButton(){
 	$('.nBtn, .table .eBtn').click(function(event){

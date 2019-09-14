@@ -12,7 +12,6 @@ public class Contact {
 	public Contact(String title, String firstName, String lastName, String department, String email,
 			String extensionNumber, String mobileNumber, String additionalInformation, boolean newsletter,
 			CustomerBase customerBase) {
-		super();
 		this.title = title;
 		this.firstName = firstName;
 		this.lastName = lastName;

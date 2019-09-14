@@ -72,6 +72,7 @@ public class DataGenerator {
 		offerService.saveOffer(offerFromAppleTwo);
 	}
 	
+	// has some issues with the linking, need to be checked
 	private void connectEntities() {
 		offerFromAppleOne.getArticles().add(macbook);
 		offerFromAppleOne.getArticles().add(magicMouse);
