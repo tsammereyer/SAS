@@ -15,7 +15,6 @@ public class CustomerBase {
 	public CustomerBase(String name1, String name2, String street, String zipCode, String city, String country,
 			String phone, String fax, String mobilePhone, String additionalInformation, String sortName,
 			String sortCity, String dob, String companyNumber, Set<Contact> contacts) {
-		super();
 		this.name1 = name1;
 		this.name2 = name2;
 		this.street = street;

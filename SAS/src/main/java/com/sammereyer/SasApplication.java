@@ -15,7 +15,9 @@ public class SasApplication {
 		// saved the context in a variable, pretty useful from time to time
 		ApplicationContext applicationContext = 
 				SpringApplication.run(SasApplication.class, args);
+		
 		//printBeans(applicationContext);
+		
 		System.out.println("seeding data ...");
 		new DataGenerator(applicationContext).seedData();
 		System.out.println("... done seeding data!");
@@ -24,8 +26,8 @@ public class SasApplication {
 	// if there are some issues with autowiring or similar. prints all the registered beans
 	@SuppressWarnings("unused")
 	private static void printBeans(ApplicationContext applicationContext) {
-		ArticleService articleService = (ArticleService) applicationContext.getBean("articleService");
-		System.out.println(articleService.toString());
+		//ArticleService articleService = (ArticleService) applicationContext.getBean("articleService");
+		//System.out.println(articleService.toString());
 
 		System.out.println();
 		System.out.println("Printing Components:");

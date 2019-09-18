@@ -13,7 +13,6 @@ public class Article {
 	
 	public Article() {}
 	public Article(String name, double price) {
-		super();
 		this.name = name;
 		this.price = price;
 	}
@@ -47,6 +46,7 @@ public class Article {
 	public void setOffers(Set<Offer> offers) {
 		this.offers = offers;
 	}
+	
 	
 	
 	

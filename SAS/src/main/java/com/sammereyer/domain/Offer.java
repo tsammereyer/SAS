@@ -16,7 +16,6 @@ public class Offer {
 	public Offer(Long position, boolean printed, Date offerDate, String enquiry,
 			Date deliveryDate, double nettoSum, String text, double bruttoSum, double globalDiscount, String text2,
 			Set<Article> articles, String project) {
-		super();
 		this.position = position;
 		this.printed = printed;
 		this.offerDate = offerDate;
